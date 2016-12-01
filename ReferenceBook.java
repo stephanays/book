@@ -1,7 +1,7 @@
 public class ReferenceBook extends LibraryBook{
     String collection;
 
-    public void Book(String authorName, String bookName, String numbers, String numberCall, String collectionName){
+    public ReferenceBook(String authorName, String bookName, String numbers, String numberCall, String collectionName){
 	setTitle(bookName);
 	setAuthor(authorName);
 	setIsbn(numbers);
